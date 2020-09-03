@@ -67,7 +67,7 @@ int main() {
 void mainMenu() {
   cout << "==============================================\n";
   cout << "==============================================\n";
-  cout << "============== Nigam's Snake Game ============\n";
+  cout << "============ Alphexus's Snake Game ===========\n";
   cout << "==============================================\n";
   cout << "==============================================\n";
   cout << "==============================================\n";
@@ -101,7 +101,7 @@ void generateFood() {
 
 void displayGrid() {
   cout << "\033[2J"; // Clears the terminal
-  cout << "Points: " << points << "                     Nigam's Terminal C++ Snake Game\n";
+  cout << "Points: " << points << "                    Alphexus's Terminal C++ Snake Game\n";
 
   for (int y=0; y<30; y++) {
     for (int x=0; x<30; x++) {
